@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<remote  name="begoniarepo"
+		fetch="https://github.com/begonia-dev" />
+		
+	<remote  name="tree"
+		fetch="https://github.com/MaloyBegonia" />
+
+    <remote   name="viper"
+	    fetch="https://github.com/TogoFire" />		
+
+
+ <!-- Device Trees -->
+ <project path="device/redmi/begonia" name="android_device_redmi_begonia" remote="tree" revision="14.0" />
+ <project path="vendor/redmi/begonia" name="android_vendor_redmi_begonia" remote="begoniarepo" revision="14.0" />
+ <project path="kernel/xiaomi/mt6785" name="android_kernel_xiaomi_mt6785" remote="begoniarepo" revision="14.0" />
+
+ <!-- Extras -->
+ <project path="vendor/redmi/begonia-ims" name="android_vendor_redmi_begonia-ims" remote="begoniarepo" revision="14.0" />
+ <project path="packages/apps/RevampedFMRadio" name="android_packages_apps_RevampedFMRadio" remote="begoniarepo" revision="14.0" />
+ <project path="device/mediatek/sepolicy" name="android_device_mediatek_sepolicy" remote="begoniarepo" revision="14.0" />
+ <project path="hardware/mediatek" name="android_hardware_mediatek" remote="begoniarepo" revision="14.0" />
+ <project patch="device/redmi/begonia-kernel" name="android_device_redmi_begonia-kernel" remote="begoniarepo" revision="14.0" />
+ <project patch="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="viper" revision="v4a" />
+
+</manifest>
